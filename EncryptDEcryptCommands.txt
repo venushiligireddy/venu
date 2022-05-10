@@ -1,0 +1,47 @@
+C:\Windows\Microsoft.NET\Framework64\v4.0.30319>
+
+aspnet_regiis.exe -pef "connectionStrings" "C:\Renewal\exe\Test\STRRateFile"
+
+aspnet_regiis.exe -pdf "connectionStrings" "C:\Renewal\exe\Test\STRRateFile"
+
+aspnet_regiis.exe -pef "connectionStrings" "C:\Renewal\exe\Test\SGRSRenewalRates"
+
+aspnet_regiis.exe -pef "connectionStrings" "C:\Renewal\exe\Test\RenLoad"
+
+aspnet_regiis.exe -pef "connectionStrings" "C:\Renewal\exe\Test\RateFile"
+
+aspnet_regiis.exe -pef "connectionStrings" "C:\Renewal\exe\Test\RenewalMonitor"
+
+aspnet_regiis.exe -pef "connectionStrings" "C:\Renewal\exe\Test\OutputReports"
+
+aspnet_regiis.exe -pef "connectionStrings" "C:\Renewal\exe\Test\AgencyReport"
+
+<connectionStrings configProtectionProvider="RsaProtectedConfigurationProvider">
+    <EncryptedData Type="http://www.w3.org/2001/04/xmlenc#Element"
+      xmlns="http://www.w3.org/2001/04/xmlenc#">
+      <EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
+      <KeyInfo xmlns="http://www.w3.org/2000/09/xmldsig#">
+        <EncryptedKey xmlns="http://www.w3.org/2001/04/xmlenc#">
+          <EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#rsa-oaep-mgf1p" />
+          <KeyInfo xmlns="http://www.w3.org/2000/09/xmldsig#">
+            <KeyName>Rsa Key</KeyName>
+          </KeyInfo>
+          <CipherData>
+            <CipherValue>GY1reGZtCgW2uuBWNHgEDnkZK/1uULdx9v3OTrArd5oNO7CKrQ2dawOpkkzek8GHRzNguBAhoLDeHIko6B7l+rpeu1gw/Sef2H+IbNIJ9tWPVNGja6BxgghkfakoMf19kRT7MLCPUsIE38t60awgKrzgWe2qVGJYXkiYzdNEkbhadyUXOq0ClLjRe3ooIB/k8r1Qa3m+xusKgXxtM4kI5+WKnoeq6EqzxNoH8cX2FPj8GtN98079MfE2hNOP4Jh5gnF/FpuEwEp5381Jq0iWrVjf3K9/bhRrrj4GwlNnP3cXrUH+DJwnpRbSMw3oB+WXVx6F541Z2m5Vto8L626o3g==</CipherValue>
+          </CipherData>
+        </EncryptedKey>
+      </KeyInfo>
+      <CipherData>
+        <CipherValue>KVHXA5VwweAFfKRju0fRKPv+RX1VdEF3V9z1ICFuD6WK1LJO/4m0HN1tsLRByCdqfhI7K0BPr2iiH26ebA3bvi8ifnX/Hj63oX7qfqA3qWdPiTYKhuwHjIADsABtTe5eM+nHmSPEQXAOWkeTFYpS5sfNabl2n/3itXhWdTtE+pQGsB9OKZA4vNDOt/3ZmDv4dh2pU60SO1jtISenowcRwD3+QnfNPlmrp/bKLHSmTBV8ifWLLE3dvLRyP57K0FW9jW9Ct0VIGgNjyjkcm8iPjJaoGRmWcHjCKbsz4J/FQHRobNMR/2V9EE9sMYn7wGBQZKBnf8uwJkPRpXKLQ6nMvGTZ8hq3wuqc5pt0QG9yg/LzcH/WtSsVlXI1Um216P3GowFcdpCQ1zpalIizpr7YMG7umnAfscI7GBmMwbtWIuQq9HuO3lRCHlCqIs8KDhruF8WX7HrwjwQFq6wWqLdSnue3Plu4GPnaiLq8iG5xP5l+xUOQRaAptoH5RtEkWBXiHfw4dSCEYHidtmidOERNfZ0PcVQJagBm6dPCD5UmiJ5iu9r/fPjbrKTjrIKLgwSw</CipherValue>
+      </CipherData>
+    </EncryptedData>
+  </connectionStrings>
+
+
+
+
+
+
+
+
+
